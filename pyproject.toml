@@ -1,0 +1,15 @@
+[project]
+name = "sphinx-mwe"
+version = "0.0.0"
+
+
+[project.optional-dependencies]
+docs = [
+    "sphinx >= 7.0",
+    "furo",
+    "sphinx-design",
+    "myst-parser",
+]
+
+[tool.setuptools]
+packages = []
